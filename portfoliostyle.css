@@ -1,0 +1,202 @@
+			body{
+				background-color: #f0f0f0;
+				
+				
+				}
+				
+				/* MENUDROPDOWN*/
+				
+
+	
+	.button img {
+		cursor:pointer;
+		
+		}
+	
+	.label {
+		top: 0px;
+		opacity:0;
+		filter:alpha(opacity=0);
+		}
+
+
+#textblock {
+	margin-bottom: 30px;
+}
+#toolbar {
+	position: fixed;
+	right:40px;
+	top: 25px;
+	width: 25%;
+	text-align: right;
+	
+}
+
+/* inquiries dropdown */
+
+		#inquiries {
+			position: relative;
+			top: -101px;
+			left: 0px;
+			width: 100%;
+			margin-top: 2.5%;
+			background-color: white;
+			opacity:0.98;
+			filter:alpha(opacity=98); /* For IE8 and earlier */
+			}
+		
+		#inquiriestext {
+			padding: 111px 26px 22px;
+			clear: both;
+			width: 39.4%;
+			}	
+		
+		#closebutton {
+			padding: 11px 0px 11px;
+			cursor:pointer;
+			}
+
+
+			
+				/* REST OF PAGE */
+			
+			
+			#page{
+				margin: 30px auto;
+				width: 100%;
+				background-color: #f0f0f0;
+				float: left;
+				}
+		
+
+			.blog {	
+				width: 95%;
+				margin: auto;
+				background-color: #f0f0f0;
+				z-index: 2;
+	
+	
+				}
+
+
+			.logo {
+			
+			 }
+
+
+			a {
+				text-decoration: underline;
+						color: #000000;
+				}
+				
+				
+			a:hover, a:hover { 
+				text-decoration: none;
+	
+				}
+	
+			
+			a:visited, a:visited {
+	
+			}
+
+
+			.blog .main {
+				float: left;
+				width: 100%;
+				z-index: 0;
+	
+				}
+
+
+			.project{
+				width: 100%;
+				float: left;
+	
+					}
+
+			.figure {
+				margin: auto;
+				width:  73%;
+				float: left;
+				border-top: 1px solid black;	
+					}
+
+			.descriptor{
+				width: 25%;
+				float: right;
+				border-top: 1px solid black;
+				font: 12px "Courier New", Courier, mono;
+				}
+
+			.title{
+
+					font: bold 9pt "helvetica", helvetica arial, sans;
+				}
+
+			.big{
+					font: small-caps 22pt "Courier New", Courier, mono;
+				}
+
+			
+			
+			.c{
+
+	
+				font-family: "Courier New", Courier, mono;
+				font-variant: small-caps;
+				}
+
+			
+			img{
+				max-width: 100%;
+					}
+
+@media screen and (max-width: 768px) {
+	.descriptor{
+	
+	width: 100%;
+	}
+	.figure{
+	width: 100%;
+}
+
+
+			.logo {
+				float:left;	
+				font-family: "Courier New", Courier, mono;
+				font-variant: small-caps;
+				font-size: 9pt;
+				margin-left: -5%;
+				position: static;
+	
+				}
+
+.c{
+	font-size: 9pt;
+
+}
+
+}
+
+
+@media screen and (min-width: 1331px) {
+	.descriptor{
+	width: 25%;
+	float: left;
+	margin-left: 24px;
+	}
+	.figure{
+	width: 73%;
+}
+
+.blog {	
+	width: 1253px;
+	margin: auto;
+	background-color: #f0f0f0;
+	z-index: 2;
+	
+}
+
+
+
