@@ -24,17 +24,19 @@
 	margin-bottom: 30px;
 }
 #toolbar {
-	position: fixed;
+	position: absolute;
 	right:40px;
 	top: 25px;
 	width: 25%;
 	text-align: right;
+	z-index: 1;
 	
 }
 
 /* inquiries dropdown */
 
 		#inquiries {
+			z-index: 2;
 			position: relative;
 			top: -101px;
 			left: 0px;
@@ -43,6 +45,7 @@
 			background-color: white;
 			opacity:0.98;
 			filter:alpha(opacity=98); /* For IE8 and earlier */
+			display:none;
 			}
 		
 		#inquiriestext {
